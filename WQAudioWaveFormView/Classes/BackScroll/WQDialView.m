@@ -1,31 +1,31 @@
 //
-//  SMTDialView.m
+//  WQDialView.m
 //  TestDemo
 //
-//  Created by 祺祺 on 2020/7/2.
-//  Copyright © 2020 祺祺. All rights reserved.
+//  Created by wqq on 2020/7/2.
+//  Copyright © 2020 wqq. All rights reserved.
 //
 
-#import "SMTDialView.h"
+#import "WQDialView.h"
 NSString * const kTRSDialViewDefaultFont = @"HelveticaNeue";
 
-const NSInteger kTRSDialViewDefautLabelFontSize = 26;
+const NSInteger kTRSDialViewDefautLabelFontSize = 11;
 
 const CGFloat kTRSDialViewDefaultMinorTickDistance = 10.0f;
-const CGFloat kTRSDialViewDefaultMinorTickLength   = 19.0f;
+const CGFloat kTRSDialViewDefaultMinorTickLength   = 10.0f;
 const CGFloat KTRSDialViewDefaultMinorTickWidth    =  1.0f;
 
 const NSInteger kTRSDialViewDefaultMajorTickDivisions = 10;
-const CGFloat kTRSDialViewDefaultMajorTickLength      = 21.0f;
+const CGFloat kTRSDialViewDefaultMajorTickLength      = 15.0f;
 const CGFloat kTRSDialViewDefaultMajorTickWidth       = 4.0f;
 
-@interface SMTDialView ()
+@interface WQDialView ()
 @property(nonatomic,strong)CAShapeLayer * masLayer;
 @property(nonatomic,strong)UIBezierPath * bezier;
 @property(nonatomic,strong)NSMutableArray * labArray;
 @end
 
-@implementation SMTDialView
+@implementation WQDialView
 static NSInteger labIndex = 0;
 - (id)initWithFrame:(CGRect)frame
 {
@@ -177,14 +177,7 @@ static NSInteger labIndex = 0;
                                  width:self.majorTickWidth
                                 length:self.majorTickLength];
 
-        // Draw the text
-        //
-        // 1) Take the existing position and subtract off the lead spacing
-        // 2) Divide by the minor ticks to get the major number
-        // 3) Add the minimum to get the current value
-        //
         float value = (point.x - self.leading)/(self.frame.size.width-2 * self.leading) * (_maximum - _minimum) + _minimum;
-//        float value = (point.x - self.leading) / self.minorTickDistance + _minimum;
         NSString *text =@"";
         int seconds = value/self.factor;
 

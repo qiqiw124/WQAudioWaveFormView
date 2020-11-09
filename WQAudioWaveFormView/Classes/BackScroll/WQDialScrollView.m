@@ -1,17 +1,16 @@
 //
-//  SMTDialScrollView.m
+//  WQDialScrollView.m
 //  TestDemo
 //
-//  Created by 祺祺 on 2020/7/2.
-//  Copyright © 2020 祺祺. All rights reserved.
+//  Created by wqq on 2020/7/2.
+//  Copyright © 2020 wqq. All rights reserved.
 //
 
-#import "SMTDialScrollView.h"
-#import "SMTDialView.h"
+#import "WQDialScrollView.h"
+#import "WQDialView.h"
 
-@interface SMTDialScrollView()<UIScrollViewDelegate> {
+@interface WQDialScrollView()<UIScrollViewDelegate> {
     
-    float _currentValue;
     float factor;
     float _lastScaleRate;//上次缩放比例
 }
@@ -19,10 +18,10 @@
 @property (assign, nonatomic) float max;
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (strong, nonatomic) UIView *overlayView;
-@property (strong, nonatomic) SMTDialView *dialView;
+@property (strong, nonatomic) WQDialView *dialView;
 @end
 
-@implementation SMTDialScrollView
+@implementation WQDialScrollView
 
 
 - (void)commonInit
@@ -35,11 +34,9 @@
     _overlayView = [[UIView alloc] initWithFrame:self.bounds];
     [_overlayView setUserInteractionEnabled:NO];
     
-    // Set the default frame size
-    // Don't worry, we will be changing this later
-    _dialView = [[SMTDialView alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, contentHeight)];
+    _dialView = [[WQDialView alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, contentHeight)];
     _dialView.leading = self.bounds.size.width/2;
-    // Don't let the container handle User Interaction
+
     [_dialView setUserInteractionEnabled:NO];
     _scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
     
@@ -118,7 +115,6 @@
     // Calculate the ending offset
     ending.x = roundf(starting.x / self.minorTickDistance) * self.minorTickDistance;
     
-//    NSLog(@"starting=%f, ending=%f", starting.x, ending.x);
     
     return ending;
 }
@@ -355,41 +351,6 @@
 {
     return self.overlayColor;
 }
-
-- (void)setCurrentValue:(float)newValue {
-    // Check to make sure the value is within the available range
-    if ((newValue < _min) || (newValue > _max))
-        _currentValue = _min;
-    else
-        _currentValue = newValue;
-//    NSLog(@"current value=%f,new value:%f factor=%f",_currentValue,newValue,factor);
-    
-    // Update the content offset based on new value
-    CGPoint offset = self.scrollView.contentOffset;
-
-    offset.x = (newValue - self.dialView.minimum) * self.dialView.minorTickDistance;
-
-    self.scrollView.contentOffset = offset;
-}
--(void)setOffset:(float)offsetx currentValue:(float)newValue{
-    if ((newValue < _min) || (newValue > _max))
-        _currentValue = _min;
-    else
-        _currentValue = newValue;    // Update the content offset based on new value
-    CGPoint offset = self.scrollView.contentOffset;
-    
-    offset.x = offsetx;//(newValue - self.dialView.minimum) * self.dialView.minorTickDistance;
-//    NSLog(@"offset x=%f",offset.x);
-    [self.scrollView setContentOffset:offset animated:NO];
-    [self scrollViewDidScroll:self.scrollView];
-}
-
-
-- (float)currentValue
-{
-    return roundf(self.scrollView.contentOffset.x / self.dialView.minorTickDistance/factor) + self.dialView.minimum;
-}
-
 -(void)insertWaveView:(UIView *)waveView{
     CGRect ff = waveView.frame;
     ff.origin.x = self.dialView.leading;
@@ -403,18 +364,18 @@
 -(CGPoint)contentOffset{
     return self.scrollView.contentOffset;
 }
--(NSInteger)leading{
-    return self.dialView.leading;
-}
 -(float)dialViewWidth{
     float ww = self.dialView.frame.size.width-self.dialView.leading*2;
 
     return ww;
 }
+-(void)setLeading:(CGFloat)leading{
+    self.dialView.leading = leading;
+}
+-(CGFloat)leading{
+    return self.dialView.leading;
+}
 -(void)resetDialViewWidth:(float)waveWidth{
-//    float minidistance = waveWidth/(self.max-self.min);
-
-//    self.dialView.minorTickDistance = minidistance;
     [self.dialView setDialRangeFrom:self.min to:self.max width:waveWidth];
     //记录此次缩放比率,用于编辑时根据此比率缩放
     _lastScaleRate = (float)(waveWidth/((self.max - self.min) * self.dialView.minorTickDistance));

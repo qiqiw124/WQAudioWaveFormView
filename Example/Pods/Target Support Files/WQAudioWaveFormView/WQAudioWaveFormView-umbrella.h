@@ -10,9 +10,13 @@
 #endif
 #endif
 
-#import "SMTDialScrollView.h"
-#import "SMTDialView.h"
-#import "SMTWaveFormView.h"
+#import "WQDialScrollView.h"
+#import "WQDialView.h"
+#import "WQWaveFormView.h"
+#import "WQAudioWaveFormView.h"
+#import "WQDialScrollView.h"
+#import "WQDialView.h"
+#import "WQWaveFormView.h"
 
 FOUNDATION_EXPORT double WQAudioWaveFormViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char WQAudioWaveFormViewVersionString[];

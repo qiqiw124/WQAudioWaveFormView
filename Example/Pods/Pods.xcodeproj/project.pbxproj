@@ -9,33 +9,35 @@
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BFF7F6F0492B1A02AD7EF88A87559C2 /* Pods-WQAudioWaveFormView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6139959BE2DC4379670E8D5A953992 /* Pods-WQAudioWaveFormView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D392889D25623117D432B93A5F67940 /* WQDialView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4985044C9341606556A65FBFA2ABFDE /* WQDialView.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		1DBD128FB6987D7740C0D2CC8F5360B7 /* SMTWaveFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42753DFFB033A32E9D9A5AFF557CAB81 /* SMTWaveFormView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		3DF204D288C0DD344C9C8492C280C0F2 /* Pods-WQAudioWaveFormView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9172ADF658135421E1ACA83B185C3E39 /* Pods-WQAudioWaveFormView_Tests-dummy.m */; };
-		3E8C895123C527149DECA697262B0F67 /* SMTDialView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B9F6688C2E0EA6EBA8037F7BB71220 /* SMTDialView.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		59D5C85C58D4C291F8A10B9F75EEF785 /* SMTDialView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8804FC8B0BF2ED9B44869968D498B1 /* SMTDialView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BEB43576F390F83564CE0DC4A6F6DA3 /* WQAudioWaveFormView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92660CF98FF0EE401AA3B26C83545CCB /* WQAudioWaveFormView-dummy.m */; };
+		49EE49C64D3D8CB805577B29D60AA579 /* WQDialView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF2FF40AD6428CD7D9DA5D286A380A5 /* WQDialView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F6D4B91F2BE2AB16C983AA69F7580E /* WQDialScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA44891E38DAAAA4ADD9CC0CB59725E /* WQDialScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6CB0DF4EA5FE981D993A512FFC2AE321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		70C2C3C5AAD298CB4B3EAE8BE8975C8D /* WQWaveFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ED76C1E5578A997A1D8D8AAE47C8FC /* WQWaveFormView.m */; };
 		717C109AF756304C416F2CD7EBDE19B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		748A7258020A239451C837E5397A4FAA /* WQAudioWaveFormView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F85BAC1749397001922E25BDF4C0187 /* WQAudioWaveFormView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CEDB73E4217361FEC6713E208A297F4 /* WQAudioWaveFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF22F6FCDDCBCCB52E3A4C7E77C484E9 /* WQAudioWaveFormView.m */; };
+		80B686C2E61DAB21C48DE64E742EBBD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8CA06326465437790FA689C4AD53D250 /* WQDialScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE454BE7BE3025B94024DE28787A70B /* WQDialScrollView.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		A790F143C0DD5769A2D1F2E9867B9D50 /* SMTWaveFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = E30B7606F593D2FECBD4E5D10AC2D4BD /* SMTWaveFormView.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B485CE8C9217D892680A7D446150E907 /* WQAudioWaveFormView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCD75228F317FC145E485EF3B1520E6 /* WQAudioWaveFormView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5163B8A2047C76E7A31F8AC1AE434EA /* WQAudioWaveFormView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EE45B43EB69B0ACE722E8CF028E98E /* WQAudioWaveFormView-dummy.m */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5480731E6AAA4E17E42D5E557F8F6F9 /* SMTDialScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ADE83E917F49336EB9BDC0FB09ECF /* SMTDialScrollView.m */; };
+		CF1E1EEB0BD2E0F2C114D4D8666741AF /* WQWaveFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAADECCBAE0D9334C6730B905650362 /* WQWaveFormView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D5C88255BC1F411BB7024754C400E068 /* SMTDialScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = A03FBC8FEDA6512482CC3A198E69DF3E /* SMTDialScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBB048DFE713F57BAA93045661D416B /* WQAudioWaveFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A7E774F0B1CE141761AFD6F4533671 /* WQAudioWaveFormView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E23A92516A2D42A2AB650963E47578B0 /* Pods-WQAudioWaveFormView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F02B7B25F3F7F86A95ADE8061F04A9 /* Pods-WQAudioWaveFormView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
@@ -70,70 +72,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0561F67B5ECD025D768C2C95C4C7B193 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0223FE0BC3C72EBF61D67F43B489A745 /* WQAudioWaveFormView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WQAudioWaveFormView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A08073FD99B2D688F3D8DDC58AD3E59 /* Pods-WQAudioWaveFormView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAudioWaveFormView_Example-Info.plist"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		11B20522C0DF97661DA3ADEFF8522C32 /* WQAudioWaveFormView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQAudioWaveFormView.modulemap; sourceTree = "<group>"; };
+		12ED76C1E5578A997A1D8D8AAE47C8FC /* WQWaveFormView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WQWaveFormView.m; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1F85A4761753F44BB61D38244D16B68E /* Pods-WQAudioWaveFormView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAudioWaveFormView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		2577652CDE0036401F39573C8FCBE112 /* Pods-WQAudioWaveFormView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQAudioWaveFormView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		26A7E774F0B1CE141761AFD6F4533671 /* WQAudioWaveFormView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQAudioWaveFormView.h; path = WQAudioWaveFormView/Classes/WQAudioWaveFormView.h; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		348509DC7F694DFF0A6DDCD5600C7E67 /* WQAudioWaveFormView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQAudioWaveFormView.debug.xcconfig; sourceTree = "<group>"; };
+		34EE45B43EB69B0ACE722E8CF028E98E /* WQAudioWaveFormView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQAudioWaveFormView-dummy.m"; sourceTree = "<group>"; };
 		3F0CE8FAB9DC431B64F5A2D8EC352CB6 /* Pods-WQAudioWaveFormView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQAudioWaveFormView_Example.modulemap"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		416ADE83E917F49336EB9BDC0FB09ECF /* SMTDialScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SMTDialScrollView.m; sourceTree = "<group>"; };
-		42753DFFB033A32E9D9A5AFF557CAB81 /* SMTWaveFormView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SMTWaveFormView.h; sourceTree = "<group>"; };
-		43E1CE31B0CDBACB4266BBF8C101D2C2 /* WQAudioWaveFormView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WQAudioWaveFormView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4A5D75EE13B5DE99C71CFA2CA14A2596 /* WQAudioWaveFormView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQAudioWaveFormView.release.xcconfig; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		4FCD75228F317FC145E485EF3B1520E6 /* WQAudioWaveFormView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAudioWaveFormView-umbrella.h"; sourceTree = "<group>"; };
 		512B393AFCB1AFC1D38AD93ED7C58683 /* WQAudioWaveFormView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WQAudioWaveFormView.framework; path = WQAudioWaveFormView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E4B7D541B32E49E1529D7B5D0FF7D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5A05EC9BEC497C89655A4ADA7CC6896B /* WQAudioWaveFormView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WQAudioWaveFormView-Info.plist"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D05A013DBAD7DE13713190D17897C1D /* WQAudioWaveFormView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQAudioWaveFormView.debug.xcconfig; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F23748EC549E643DB02E454D76BFCC0 /* Pods-WQAudioWaveFormView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAudioWaveFormView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		657632D0013705211A41C46A0F121305 /* Pods_WQAudioWaveFormView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQAudioWaveFormView_Tests.framework; path = "Pods-WQAudioWaveFormView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6594732237F8822036804E2AC62F41BC /* WQAudioWaveFormView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WQAudioWaveFormView-Info.plist"; sourceTree = "<group>"; };
 		67F3CFDF886A94492F8B075F91DAFCF6 /* Pods-WQAudioWaveFormView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQAudioWaveFormView_Tests.modulemap"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		742FC5AE4D19AFF895518D2EE93775B0 /* Pods-WQAudioWaveFormView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQAudioWaveFormView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		74DE6B6EA38D591501BF1F29AE95A4C5 /* WQAudioWaveFormView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQAudioWaveFormView.modulemap; sourceTree = "<group>"; };
 		761F07E5BA6485DC08EA925FD2C09CF5 /* Pods_WQAudioWaveFormView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQAudioWaveFormView_Example.framework; path = "Pods-WQAudioWaveFormView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A06283F58A00FBDB097CAF8E05F946 /* Pods-WQAudioWaveFormView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAudioWaveFormView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C0969BA5150221E625BC1E098A3690E /* WQAudioWaveFormView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAudioWaveFormView-prefix.pch"; sourceTree = "<group>"; };
 		7D4D391BD583264C695D24F0B37D639D /* Pods-WQAudioWaveFormView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQAudioWaveFormView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		8390195B6F189F3DD846E6A8F7D41F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7F85BAC1749397001922E25BDF4C0187 /* WQAudioWaveFormView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAudioWaveFormView-umbrella.h"; sourceTree = "<group>"; };
 		87F02B7B25F3F7F86A95ADE8061F04A9 /* Pods-WQAudioWaveFormView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQAudioWaveFormView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9172ADF658135421E1ACA83B185C3E39 /* Pods-WQAudioWaveFormView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQAudioWaveFormView_Tests-dummy.m"; sourceTree = "<group>"; };
-		92660CF98FF0EE401AA3B26C83545CCB /* WQAudioWaveFormView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQAudioWaveFormView-dummy.m"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		95AE51031C169A171D5CE4136C087780 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		9977233A7062B9E40CE5D3FFCAA8F388 /* Pods-WQAudioWaveFormView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQAudioWaveFormView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A03FBC8FEDA6512482CC3A198E69DF3E /* SMTDialScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SMTDialScrollView.h; sourceTree = "<group>"; };
+		9EA44891E38DAAAA4ADD9CC0CB59725E /* WQDialScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WQDialScrollView.h; sourceTree = "<group>"; };
 		AE525EB4AF5C47F21FC14DE1C2EA9BD0 /* Pods-WQAudioWaveFormView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQAudioWaveFormView_Example-dummy.m"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AF22F6FCDDCBCCB52E3A4C7E77C484E9 /* WQAudioWaveFormView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQAudioWaveFormView.m; path = WQAudioWaveFormView/Classes/WQAudioWaveFormView.m; sourceTree = "<group>"; };
 		B1AFD0A065EF53F2B42E2410DB60F81C /* Pods-WQAudioWaveFormView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQAudioWaveFormView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B555DA1E39CC1B2B9996C5B77FF7C40F /* WQAudioWaveFormView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQAudioWaveFormView-prefix.pch"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BAE9147BBEAA868302FBD15D72D86CAA /* WQAudioWaveFormView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQAudioWaveFormView.release.xcconfig; sourceTree = "<group>"; };
 		C194AB016C104D7E18151C35FE2F17BD /* Pods-WQAudioWaveFormView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAudioWaveFormView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CD67010D248A6EA6552DB398FD0FA17E /* Pods-WQAudioWaveFormView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAudioWaveFormView_Tests-Info.plist"; sourceTree = "<group>"; };
+		CFE454BE7BE3025B94024DE28787A70B /* WQDialScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WQDialScrollView.m; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D1265CF019F2BC20699ECA879387E8D4 /* Pods-WQAudioWaveFormView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQAudioWaveFormView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		E30B7606F593D2FECBD4E5D10AC2D4BD /* SMTWaveFormView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SMTWaveFormView.m; sourceTree = "<group>"; };
-		F4B9F6688C2E0EA6EBA8037F7BB71220 /* SMTDialView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SMTDialView.m; sourceTree = "<group>"; };
+		DEAADECCBAE0D9334C6730B905650362 /* WQWaveFormView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WQWaveFormView.h; sourceTree = "<group>"; };
+		E4985044C9341606556A65FBFA2ABFDE /* WQDialView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WQDialView.m; sourceTree = "<group>"; };
+		EFF2FF40AD6428CD7D9DA5D286A380A5 /* WQDialView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WQDialView.h; sourceTree = "<group>"; };
 		FB6139959BE2DC4379670E8D5A953992 /* Pods-WQAudioWaveFormView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQAudioWaveFormView_Example-umbrella.h"; sourceTree = "<group>"; };
-		FC8804FC8B0BF2ED9B44869968D498B1 /* SMTDialView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SMTDialView.h; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,11 +150,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CB8D016234D39563C5988CC40F807AA /* Frameworks */ = {
+		8EB02F36A05B5A680C114ED52EF02797 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CB0DF4EA5FE981D993A512FFC2AE321 /* Foundation.framework in Frameworks */,
+				80B686C2E61DAB21C48DE64E742EBBD1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,24 +180,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0084798B14E5C3E3B6469E701EB9B466 /* Development Pods */ = {
+		0614D089F828667AB31179850A6D279C /* BackScroll */ = {
 			isa = PBXGroup;
 			children = (
-				1F6F02D7399E414DC9A801752F243FB9 /* WQAudioWaveFormView */,
+				9EA44891E38DAAAA4ADD9CC0CB59725E /* WQDialScrollView.h */,
+				CFE454BE7BE3025B94024DE28787A70B /* WQDialScrollView.m */,
+				EFF2FF40AD6428CD7D9DA5D286A380A5 /* WQDialView.h */,
+				E4985044C9341606556A65FBFA2ABFDE /* WQDialView.m */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1F6F02D7399E414DC9A801752F243FB9 /* WQAudioWaveFormView */ = {
-			isa = PBXGroup;
-			children = (
-				C95738AB969C2846F89BAFCBB78195C3 /* BackScroll */,
-				2E85C0DADF32F5A6FE4F138E6E95A873 /* Pod */,
-				B43634C837C2091A6589951FE45815E2 /* Support Files */,
-				47B8A798AD4EE83C3EACE7365702221B /* Wave */,
-			);
-			name = WQAudioWaveFormView;
-			path = ../..;
+			name = BackScroll;
+			path = WQAudioWaveFormView/Classes/BackScroll;
 			sourceTree = "<group>";
 		};
 		29F3D0E879B8C4660527E8FB9B560566 /* Pods-WQAudioWaveFormView_Tests */ = {
@@ -213,24 +209,28 @@
 			path = "Target Support Files/Pods-WQAudioWaveFormView_Tests";
 			sourceTree = "<group>";
 		};
-		2E85C0DADF32F5A6FE4F138E6E95A873 /* Pod */ = {
+		2E1F0EAAE6344618C3C526BCBA65BB46 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0561F67B5ECD025D768C2C95C4C7B193 /* LICENSE */,
-				8390195B6F189F3DD846E6A8F7D41F3B /* README.md */,
-				43E1CE31B0CDBACB4266BBF8C101D2C2 /* WQAudioWaveFormView.podspec */,
+				95AE51031C169A171D5CE4136C087780 /* LICENSE */,
+				53E4B7D541B32E49E1529D7B5D0FF7D9 /* README.md */,
+				0223FE0BC3C72EBF61D67F43B489A745 /* WQAudioWaveFormView.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		47B8A798AD4EE83C3EACE7365702221B /* Wave */ = {
+		2F87B99C8FA79EB3D662CA100E5FD1AB /* WQAudioWaveFormView */ = {
 			isa = PBXGroup;
 			children = (
-				42753DFFB033A32E9D9A5AFF557CAB81 /* SMTWaveFormView.h */,
-				E30B7606F593D2FECBD4E5D10AC2D4BD /* SMTWaveFormView.m */,
+				26A7E774F0B1CE141761AFD6F4533671 /* WQAudioWaveFormView.h */,
+				AF22F6FCDDCBCCB52E3A4C7E77C484E9 /* WQAudioWaveFormView.m */,
+				0614D089F828667AB31179850A6D279C /* BackScroll */,
+				2E1F0EAAE6344618C3C526BCBA65BB46 /* Pod */,
+				4EAF15F1F331010E6324C82DB30FD8D5 /* Support Files */,
+				69778AA8BAF90033B64885AF1E172AC6 /* Wave */,
 			);
-			name = Wave;
-			path = WQAudioWaveFormView/Classes/Wave;
+			name = WQAudioWaveFormView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -254,6 +254,21 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		4EAF15F1F331010E6324C82DB30FD8D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11B20522C0DF97661DA3ADEFF8522C32 /* WQAudioWaveFormView.modulemap */,
+				34EE45B43EB69B0ACE722E8CF028E98E /* WQAudioWaveFormView-dummy.m */,
+				5A05EC9BEC497C89655A4ADA7CC6896B /* WQAudioWaveFormView-Info.plist */,
+				B555DA1E39CC1B2B9996C5B77FF7C40F /* WQAudioWaveFormView-prefix.pch */,
+				7F85BAC1749397001922E25BDF4C0187 /* WQAudioWaveFormView-umbrella.h */,
+				348509DC7F694DFF0A6DDCD5600C7E67 /* WQAudioWaveFormView.debug.xcconfig */,
+				4A5D75EE13B5DE99C71CFA2CA14A2596 /* WQAudioWaveFormView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WQAudioWaveFormView";
+			sourceTree = "<group>";
+		};
 		5042C8F2CF9ADB3CE1DF5B2EF0848842 /* Pods-WQAudioWaveFormView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +284,16 @@
 			);
 			name = "Pods-WQAudioWaveFormView_Example";
 			path = "Target Support Files/Pods-WQAudioWaveFormView_Example";
+			sourceTree = "<group>";
+		};
+		69778AA8BAF90033B64885AF1E172AC6 /* Wave */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADECCBAE0D9334C6730B905650362 /* WQWaveFormView.h */,
+				12ED76C1E5578A997A1D8D8AAE47C8FC /* WQWaveFormView.m */,
+			);
+			name = Wave;
+			path = WQAudioWaveFormView/Classes/Wave;
 			sourceTree = "<group>";
 		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
@@ -288,21 +313,6 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		B43634C837C2091A6589951FE45815E2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				74DE6B6EA38D591501BF1F29AE95A4C5 /* WQAudioWaveFormView.modulemap */,
-				92660CF98FF0EE401AA3B26C83545CCB /* WQAudioWaveFormView-dummy.m */,
-				6594732237F8822036804E2AC62F41BC /* WQAudioWaveFormView-Info.plist */,
-				7C0969BA5150221E625BC1E098A3690E /* WQAudioWaveFormView-prefix.pch */,
-				4FCD75228F317FC145E485EF3B1520E6 /* WQAudioWaveFormView-umbrella.h */,
-				5D05A013DBAD7DE13713190D17897C1D /* WQAudioWaveFormView.debug.xcconfig */,
-				BAE9147BBEAA868302FBD15D72D86CAA /* WQAudioWaveFormView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WQAudioWaveFormView";
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -348,23 +358,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C95738AB969C2846F89BAFCBB78195C3 /* BackScroll */ = {
+		CA171DF104EE50F582214750584BEF96 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A03FBC8FEDA6512482CC3A198E69DF3E /* SMTDialScrollView.h */,
-				416ADE83E917F49336EB9BDC0FB09ECF /* SMTDialScrollView.m */,
-				FC8804FC8B0BF2ED9B44869968D498B1 /* SMTDialView.h */,
-				F4B9F6688C2E0EA6EBA8037F7BB71220 /* SMTDialView.m */,
+				2F87B99C8FA79EB3D662CA100E5FD1AB /* WQAudioWaveFormView */,
 			);
-			name = BackScroll;
-			path = WQAudioWaveFormView/Classes/BackScroll;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0084798B14E5C3E3B6469E701EB9B466 /* Development Pods */,
+				CA171DF104EE50F582214750584BEF96 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				F4479D2026C262BC49A185B27BF395DC /* Products */,
@@ -425,14 +431,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF53F90A462687CC249B1B28164A1829 /* Headers */ = {
+		E11A4C2FD77B55000C9FCECE891819C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C88255BC1F411BB7024754C400E068 /* SMTDialScrollView.h in Headers */,
-				59D5C85C58D4C291F8A10B9F75EEF785 /* SMTDialView.h in Headers */,
-				1DBD128FB6987D7740C0D2CC8F5360B7 /* SMTWaveFormView.h in Headers */,
-				B485CE8C9217D892680A7D446150E907 /* WQAudioWaveFormView-umbrella.h in Headers */,
+				748A7258020A239451C837E5397A4FAA /* WQAudioWaveFormView-umbrella.h in Headers */,
+				DBBB048DFE713F57BAA93045661D416B /* WQAudioWaveFormView.h in Headers */,
+				51F6D4B91F2BE2AB16C983AA69F7580E /* WQDialScrollView.h in Headers */,
+				49EE49C64D3D8CB805577B29D60AA579 /* WQDialView.h in Headers */,
+				CF1E1EEB0BD2E0F2C114D4D8666741AF /* WQWaveFormView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,12 +486,12 @@
 		};
 		B1531433EBF693CF5B0DCE8686169ED9 /* WQAudioWaveFormView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC01C20B0786F40FE2EAFDB6E8115301 /* Build configuration list for PBXNativeTarget "WQAudioWaveFormView" */;
+			buildConfigurationList = 34D722A11B3966FBEC707F69C1280AFC /* Build configuration list for PBXNativeTarget "WQAudioWaveFormView" */;
 			buildPhases = (
-				DF53F90A462687CC249B1B28164A1829 /* Headers */,
-				D5B6D2B537CAE42819C10DC9229E0C6B /* Sources */,
-				6CB8D016234D39563C5988CC40F807AA /* Frameworks */,
-				5A909D419D6697E1787D5DFB87DC9C5C /* Resources */,
+				E11A4C2FD77B55000C9FCECE891819C8 /* Headers */,
+				3E7FEACC9523FEEAC8F78314C60790DC /* Sources */,
+				8EB02F36A05B5A680C114ED52EF02797 /* Frameworks */,
+				3AF76BA18909E1C2F211ACF47F4070A7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -545,14 +552,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		592C155D9A8543E2327BE88729D092E4 /* Resources */ = {
+		3AF76BA18909E1C2F211ACF47F4070A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A909D419D6697E1787D5DFB87DC9C5C /* Resources */ = {
+		592C155D9A8543E2327BE88729D092E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -584,6 +591,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E7FEACC9523FEEAC8F78314C60790DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5163B8A2047C76E7A31F8AC1AE434EA /* WQAudioWaveFormView-dummy.m in Sources */,
+				7CEDB73E4217361FEC6713E208A297F4 /* WQAudioWaveFormView.m in Sources */,
+				8CA06326465437790FA689C4AD53D250 /* WQDialScrollView.m in Sources */,
+				0D392889D25623117D432B93A5F67940 /* WQDialView.m in Sources */,
+				70C2C3C5AAD298CB4B3EAE8BE8975C8D /* WQWaveFormView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -605,17 +624,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF204D288C0DD344C9C8492C280C0F2 /* Pods-WQAudioWaveFormView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B6D2B537CAE42819C10DC9229E0C6B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5480731E6AAA4E17E42D5E557F8F6F9 /* SMTDialScrollView.m in Sources */,
-				3E8C895123C527149DECA697262B0F67 /* SMTDialView.m in Sources */,
-				A790F143C0DD5769A2D1F2E9867B9D50 /* SMTWaveFormView.m in Sources */,
-				5BEB43576F390F83564CE0DC4A6F6DA3 /* WQAudioWaveFormView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,38 +717,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3FB810498AD9CC964CD094301A4992F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAE9147BBEAA868302FBD15D72D86CAA /* WQAudioWaveFormView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView.modulemap";
-				PRODUCT_MODULE_NAME = WQAudioWaveFormView;
-				PRODUCT_NAME = WQAudioWaveFormView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -931,37 +907,6 @@
 			};
 			name = Release;
 		};
-		88FF00F42246B874E0388B2FA5A66603 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D05A013DBAD7DE13713190D17897C1D /* WQAudioWaveFormView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView.modulemap";
-				PRODUCT_MODULE_NAME = WQAudioWaveFormView;
-				PRODUCT_NAME = WQAudioWaveFormView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
@@ -993,6 +938,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C51A877608EFE7AC5FC72EA14EF22FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348509DC7F694DFF0A6DDCD5600C7E67 /* WQAudioWaveFormView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView.modulemap";
+				PRODUCT_MODULE_NAME = WQAudioWaveFormView;
+				PRODUCT_NAME = WQAudioWaveFormView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		DA2269E0D9453F305A780B733F4F0D6E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1027,6 +1003,38 @@
 			};
 			name = Debug;
 		};
+		F5156C667D0887294787E05100895FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5D75EE13B5DE99C71CFA2CA14A2596 /* WQAudioWaveFormView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQAudioWaveFormView/WQAudioWaveFormView.modulemap";
+				PRODUCT_MODULE_NAME = WQAudioWaveFormView;
+				PRODUCT_NAME = WQAudioWaveFormView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1035,6 +1043,15 @@
 			buildConfigurations = (
 				DA2269E0D9453F305A780B733F4F0D6E /* Debug */,
 				87A23462240717CFB3F8351122A38BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D722A11B3966FBEC707F69C1280AFC /* Build configuration list for PBXNativeTarget "WQAudioWaveFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51A877608EFE7AC5FC72EA14EF22FA1 /* Debug */,
+				F5156C667D0887294787E05100895FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1062,15 +1079,6 @@
 			buildConfigurations = (
 				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
 				BE874B114A0991701B09229EAAA4CA84 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CC01C20B0786F40FE2EAFDB6E8115301 /* Build configuration list for PBXNativeTarget "WQAudioWaveFormView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				88FF00F42246B874E0388B2FA5A66603 /* Debug */,
-				3FB810498AD9CC964CD094301A4992F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

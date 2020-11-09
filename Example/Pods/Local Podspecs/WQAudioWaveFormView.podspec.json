@@ -1,6 +1,6 @@
 {
   "name": "WQAudioWaveFormView",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of WQAudioWaveFormView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/qiqiw124/WQAudioWaveFormView",
@@ -13,10 +13,20 @@
   },
   "source": {
     "git": "https://github.com/qiqiw124/WQAudioWaveFormView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WQAudioWaveFormView/Classes/**/*"
+  "source_files": "WQAudioWaveFormView/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Wave",
+      "source_files": "WQAudioWaveFormView/Classes/Wave/*.{h,m}"
+    },
+    {
+      "name": "BackScroll",
+      "source_files": "WQAudioWaveFormView/Classes/BackScroll/*.{h,m}"
+    }
+  ]
 }

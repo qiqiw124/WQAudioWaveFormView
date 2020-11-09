@@ -4,7 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - WQAudioWaveFormView (0.1.0)
+  - WQAudioWaveFormView (0.1.1):
+    - WQAudioWaveFormView/BackScroll (= 0.1.1)
+    - WQAudioWaveFormView/Wave (= 0.1.1)
+  - WQAudioWaveFormView/BackScroll (0.1.1)
+  - WQAudioWaveFormView/Wave (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +24,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WQAudioWaveFormView: 3ad98145cec7b3d104f0fb22724bf257e859da24
+  WQAudioWaveFormView: 082dcec016c2c5d519c8d17f98d4b1bbe9e163bc
 
 PODFILE CHECKSUM: 6b69126e5f98dedad32d124b80f0c4cac3e23244
 

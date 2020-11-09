@@ -1,16 +1,16 @@
 //
-//  SMTDialView.h
+//  WQDialView.h
 //  TestDemo
 //
-//  Created by 祺祺 on 2020/7/2.
-//  Copyright © 2020 祺祺. All rights reserved.
+//  Created by wqq on 2020/7/2.
+//  Copyright © 2020 wqq. All rights reserved.
 //
 //刻度表承载的view
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SMTDialView : UIView<UIAppearance>
+@interface WQDialView : UIView<UIAppearance>
 {
     int count;
 

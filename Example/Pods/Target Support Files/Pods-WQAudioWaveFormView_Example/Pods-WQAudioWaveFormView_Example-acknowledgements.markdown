@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## WQAudioWaveFormView
 
-Copyright (c) 2020 01810452 <wangqiqi@smt.cn>
+Copyright (c) 2020 wqq <qiqiw124@163.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
