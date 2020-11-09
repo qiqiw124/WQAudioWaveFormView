@@ -20,6 +20,15 @@ it, simply add the following line to your Podfile:
 pod 'WQAudioWaveFormView'
 ```
 
+##
+
+此项目可对长音频进行波纹绘制，并可固定刻度距离，进行相应的缩放。
+音波缩放的同时，会更改时间刻度的表示值
+项目优化内存占用，并解决了音波过长时图片无法完整展示的问题
+
+此项目基于https://github.com/fulldecent/FDWaveformView.git，
+但更改了大量的代码，优化了其中的内存占用问题以及刻度重复等问题
+
 ## Author
 
 wqq, qiqiw124@163.com
