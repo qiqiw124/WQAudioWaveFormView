@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WQAudioWaveFormView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WQAudioWaveFormView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WQAudioWaveFormView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WQAudioWaveFormView: 3ad98145cec7b3d104f0fb22724bf257e859da24
+
+PODFILE CHECKSUM: 6b69126e5f98dedad32d124b80f0c4cac3e23244
+
+COCOAPODS: 1.9.3

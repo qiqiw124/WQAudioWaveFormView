@@ -1,0 +1,6 @@
+framework module WQAudioWaveFormView {
+  umbrella header "WQAudioWaveFormView-umbrella.h"
+
+  export *
+  module * { export * }
+}
